@@ -5,8 +5,8 @@
 on: [push, pull_request]
 
 env:
-  SPACK_REPO: spack/spack
-  SPACK_BRANCH: develop
+  SPACK_REPO: danvev/spack
+  SPACK_BRANCH: dev/oneapi-2021.3-release
 
 jobs:
   checks:
